@@ -167,10 +167,10 @@ about me{
         position: relative;
         z-index: 2;
         top:0%;
-       
+       padding:10px;
         display:flex;
-        
-        margin-top: 0px;
+        margin-left:10px;
+        margin-top:  10px;
  }
  .para1{
     z-index: 2;
@@ -181,10 +181,9 @@ about me{
 }
 .container{
     position: fixed;
-    margin-bottom: 1500px;
     left: 0%;
     z-index: 2;
-    margin-top: 0px;
+    margin: 0px;
     text-align: center;
 
 
@@ -193,17 +192,7 @@ about me{
     font-size:50px;
 
 }
-.logo{
-     color: whitesmoke;
-        position: relative;
-        z-index: 2;
-        top:0%;
-       
-        display:flex;
-        
-        margin-top: 0px;
-}
-    
+
 .p1{
     font-size:15px;
     margin:10px;
