@@ -174,11 +174,10 @@ about me{
     .container{
         position: fixed;
         margin-bottom: 1500px;
-        
-     left: 0%;
-     transform: translateX(-50%);
-     margin-top: 0px;
-     text-align: center;
+        left: 0%;
+       
+        margin-top: 0px;
+        text-align: center;
 
     }
  }
