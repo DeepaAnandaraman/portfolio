@@ -181,3 +181,17 @@ about me{
 
     }
  }
+ @media screen and (max-width:600px)
+ {
+    .hi1{
+        color: whitesmoke;
+        position: relative;
+        z-index: 2;
+        top:0%;
+        margin-right: 500px;
+        display:flex;
+        margin-left:500px;  
+        margin-bottom:250px;
+        margin-top: 0px;
+ }
+}
