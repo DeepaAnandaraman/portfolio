@@ -1,5 +1,16 @@
 
 
+.h1 {
+    color: aliceblue;
+    position: relative;
+    z-index: 2; /* Ensures the heading appears above the canvas */
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    
+ 
+    
+ }
  .p {
      color: whitesmoke;
      position: relative;
@@ -121,7 +132,7 @@ about me{
      height: 100%;
      background-color: #000;
  }
- @media screen and (max-width: 767px){
+ 
  .container {
      position: fixed;
      bottom: 600px;
@@ -131,18 +142,6 @@ about me{
      text-align: center;
      
  }
- .h1 {
-    color: aliceblue;
-    position: relative;
-    z-index: 2; /* Ensures the heading appears above the canvas */
-    text-align: center;
-    font-style: italic;
-    font-size: 30px;
-    
- 
-    
- }
-}
  .btn {
      display: inline-block;
      padding: 10px 20px;
@@ -158,7 +157,6 @@ about me{
  .btn:hover {
      background-color: skyblue;
  }
-
  @media screen and (max-width:600px)
  {
     .p{
@@ -170,18 +168,15 @@ about me{
         margin:0px;
     }
  }
-
  @media screen and (max-width:600px)
-{
- .container{
-  position: relative;
-  bottom: 300px;
-  left: 25%;
-  transform: translateX(-50%);
-  margin-top: 20px;
- text-align: center;
-     
+ {
+    .container{
+        position: relative;
+        bottom: 300px;
+     left: 25%;
+     transform: translateX(-50%);
+     margin-top: 20px;
+     text-align: center;
+
     }
  }
- 
- 
