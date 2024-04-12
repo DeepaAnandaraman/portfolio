@@ -166,7 +166,15 @@ about me{
 
     }
     .p1{
-        font-size:8px;
+        font-size:15px;
+        margin:0px;
     }
  }
+
+ @media screen and (max-width:600px)
+{.container{
+        position: relative;
+    }
+ }
+ 
  
