@@ -18,7 +18,7 @@
      z-index: 2;
      font-size: 100px;
      text-align: center;
-     margin-top: 200px;
+     
 
      
      
@@ -30,9 +30,10 @@
     z-index: 2;
     font-size: 100px;
     text-align: center;
-    margin-top: 150px;
+   
     
  }
+ 
  /* Align social links to the left */
 .hi {
     color: whitesmoke;
@@ -45,6 +46,7 @@
     margin-bottom:30px;
     margin-top: 0px;
 }
+
 .hi1{
     color: whitesmoke;
     position: relative;
@@ -53,7 +55,7 @@
     margin-right: 500px;
     display:flex;
     margin-left:500px;  
-    margin-bottom:250px;
+    margin-bottom:30px;
     margin-top: 0px;
 }
 /* Example styling for the logos */
@@ -85,12 +87,18 @@
      margin-bottom: 30px;
     
  }
+ about{
+    margin-top:30px;
+ }
+ skills{
+    margin-top: 30px;
+ }
  .me{
     color: whitesmoke;
      position: relative;
      z-index: 2;
      font-size: 100px;
-     margin-top:150px;
+     margin-top:50px;
     text-align: center;
      font-style: italic;
  }
@@ -178,7 +186,106 @@ about me{
     position: relative;
     text-align:center;
 }
+.projects{
+    margin-top: 0px;
+    margin-left:350px;
+    z-index:2;
+}
+.myproject{
+    z-index:2;
+    font-size: 100px;
+    color: white;
+    margin-top:0px;
+}
+.project-box{
+    background-color: white;
+    color: white;
+    z-index: 2;
+    transform: translateX(-50%);
+    width: calc(50% - 10px); /* Adjust as needed for spacing */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 768px) {
+    .project-box {
+        width: calc(33.333% - 10px); /* Adjust as needed for spacing */
+    }
+}
+.project-info{
+    background-color: white;
+    color: black;
+    padding: 10px;
    
+    border-radius: 5px;
+
+}
+.project-info h3 {
+    color:black;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.project-info p {
+    color:black;
+}
+.project-info:hover {
+    cursor: pointer;
+    background-color: #a6d6f6;
+}
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    z-index:2;
+    color: white;
+}
+
+.contact-item {
+    margin: 0 10px;
+}
+
+.contact-item img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.contact-item img:hover {
+    transform: scale(1.1); /* Enlarge the icon slightly on hover */
+}
+
+.quote {
+    text-align: center;
+    margin-top: 20px;
+    z-index:2;
+    color:white;
+}
+
+.quote p {
+    font-size: 50px;
+    color:white;
+    margin: 5px 0;
+
+}
+.itsme{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+section{
+    padding: 50px 0;
+}
+projects{
+    margin: 30px;
+}
  
  @media only screen and (max-width:768px)
  {
