@@ -203,3 +203,13 @@ about me{
     position: relative;
     text-align:center;
 }
+@media screen and (max-width:600px)
+{
+    .para1{
+        z-index: 2;
+        color: whitesmoke;
+        font-style: italic;
+        font-size: 10px;
+
+    }
+}
