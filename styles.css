@@ -172,7 +172,7 @@ about me{
  @media screen and (max-width:600px)
  {
     .container{
-        position: relative;
+        position: fixed;
         bottom: 500px;
      left: 20%;
      transform: translateX(-50%);
