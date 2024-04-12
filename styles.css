@@ -193,6 +193,17 @@ about me{
     font-size:50px;
 
 }
+.logo{
+     color: whitesmoke;
+        position: relative;
+        z-index: 2;
+        top:0%;
+       
+        display:flex;
+        
+        margin-top: 0px;
+}
+    
 .p1{
     font-size:15px;
     margin:10px;
