@@ -157,30 +157,9 @@ about me{
  .btn:hover {
      background-color: skyblue;
  }
- @media screen and (max-width:600px)
- {
-    .p{
-        font-size:50px;
-
-    }
-    .p1{
-        font-size:15px;
-        margin:0px;
-    }
- }
-
- @media screen and (max-width:600px)
- {
-    .container{
-        position: fixed;
-        margin-bottom: 1500px;
-        left: 0%;
-       
-        margin-top: 0px;
-        text-align: center;
-
-    }
- }
+ 
+   
+ 
  @media screen and (max-width:600px)
  {
     .hi1{
@@ -188,13 +167,38 @@ about me{
         position: relative;
         z-index: 2;
         top:0%;
-        margin-right: 1000px;
+        margin-right: 500px;
         display:flex;
-        margin-left:100px;  
+        margin-left:500px;  
         margin-bottom:250px;
         margin-top: 0px;
  }
+ .para1{
+    z-index: 2;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 10px;
+
 }
+.container{
+    position: fixed;
+    margin-bottom: 1500px;
+    left: 0%;
+   
+    margin-top: 0px;
+    text-align: center;
+
+
+}
+.p{
+    font-size:50px;
+
+}
+.p1{
+    font-size:15px;
+    margin:0px;
+}
+ }
 .para1{
     z-index: 2;
     color: whitesmoke;
@@ -202,14 +206,4 @@ about me{
     font-size: 20px;
     position: relative;
     text-align:center;
-}
-@media screen and (max-width:600px)
-{
-    .para1{
-        z-index: 2;
-        color: whitesmoke;
-        font-style: italic;
-        font-size: 10px;
-
-    }
 }
