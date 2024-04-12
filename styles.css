@@ -174,12 +174,12 @@ about me{
  @media screen and (max-width:600px)
 {
  .container{
-        position: relative;
-        bottom: 300px;
-     left: 25%;
-     transform: translateX(-50%);
-     margin-top: 20px;
-     text-align: center;
+  position: relative;
+  bottom: 300px;
+  left: 25%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+ text-align: center;
      
     }
  }
