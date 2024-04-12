@@ -169,8 +169,7 @@ about me{
         top:0%;
        
         display:flex;
-        margin-left:100px;  
-        margin-bottom:250px;
+        
         margin-top: 0px;
  }
  .para1{
@@ -197,7 +196,7 @@ about me{
 .p1{
     font-size:15px;
     margin:10px;
-}
+  }
  }
 .para1{
     z-index: 2;
