@@ -173,9 +173,9 @@ about me{
  {
     .container{
         position: fixed;
-        margin-bottom: 1000px;
+        margin-bottom: 1500px;
         
-     left: 20%;
+     left: 0%;
      transform: translateX(-50%);
      margin-top: 20px;
      text-align: center;
