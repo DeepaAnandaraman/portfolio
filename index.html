@@ -13,9 +13,9 @@
         <h1 class="h1">Welcome to my portfolio</h1>  
         <div class="container">
             <a href="#home" onclick="scrollToSection('#home')" class="btn">Home</a>
-            <a href="#about" onclick="scrollToSection('#about')" class="btn">About Me</a>
+            <a href="#about" onclick="scrollToSection('#about')" class="btn">About</a>
             <a href="#skills" onclick="scrollToSection('#skills')" class="btn">Skills</a>
-            <a href="#projects" class="btn">Mini Projects</a>
+            <a href="#projects" onclick="scrollToSection('#projects')" class="btn">Projects</a>
             <a href="#contact" onclick="scrollToSection('#contact')" class="btn">Contact</a>
         </div>
         <div class="me">Deepa A</div>
@@ -34,11 +34,11 @@
     </section>
 
     <section id="about">
-        <div id="about-me" class="p">About Me</div>   
+        <div id="about-me" class="p">About</div>   
         <div id="about-me" class="p1">Hello, I'm Deepa! I'm currently studying for a degree in Information Technology and have a strong background in web and python development.As a frontend developer with a passion for creating captivating user experiences, I specialize in crafting beautiful and functional websites using HTML, CSS, and JavaScript. With a keen eye for design and a dedication to usability, I strive to bring ideas to life through intuitive interfaces and seamless interactions. While my primary focus is on frontend development, I also have a foundational understanding of Python programming. I use Python for basic scripting tasks and automation. I'm looking for an entry-level job where I can use my skills to help a company succeed. Let's collaborate and build something amazing together!</div>
     </section>
 
-    <section id="skills"></section>
+    <section id="skills">
     <div class="pi">Skills</div>
     
         
@@ -61,9 +61,90 @@
          </a>
         
     </div>
+</section>
+    <section id="projects">
+        <p class="myproject">Projects</p>
+        <div class="projects">
+        <div class="row">
+        <div class="project-box">
+            
+            <div class="project-info">
+            <h3>Portfoilo</h3>
+            <p>Made a portfolio website with  HTML, CSS and JavaScript. It provides an opportunity for me to introduce myself, showcase my work and the languages i know, my contact details etc.. </p>
+        </div>
+        </div>
+        <div class="project-box">
+            
+            <div class="project-info">
+            <h3>Dynamic style transfer with VAE-GAN</h3>
+            <p>Dynamic style transfer using Variational Autoencoder (VAE) and Generative Adversarial Network (GAN) combines the generative capabilities of GANs with the variational inference of VAEs to enable real-time, adaptive style transfer in images, allowing for the synthesis of novel images with desired artistic styles.</p>
+        </div>
+        </div>
+        <div class="project-box">
 
-    <section id="projects"></section>
-    <section id="contact"></section>
+            <div class="project-info">
+            <h3>Smart Irrigation System</h3>
+            <p>Smart irrigation system using Arduino utilizes sensors to monitor soil moisture levels, weather conditions, and plant requirements, enabling automated watering schedules to optimize water usage and improve crop yield, conserving resources while ensuring proper plant hydration.</p>
+        </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="project-box">
+            
+            <div class="project-info">
+            <h3>weather forecasting website</h3>
+            <p>Created a Weather forecasting website using HTML, CSS, JavaScript. Made a simple interface to the website, which acts as a platform for users to get the details about the weather.</p> 
+        </div>
+    </div>
+    <div class="project-box">
+        
+        <div class="project-info">
+        <h3>Story Generation using RNN</h3>
+<p>Story generation using Recurrent Neural Networks (RNNs) employs deep learning algorithms to analyze patterns in text data, enabling the generation of coherent and contextually relevant narratives based on learned language structures, offering a novel approach to automated storytelling.</p>
+</div>
+</div>
+<div class="project-box">
+    
+    <div class="project-info">
+        <h3>Email Spam Classification</h3>
+        <p>Email spam classification utilizes machine learning algorithms to analyze email content and metadata, distinguishing between legitimate emails and spam based on features such as text content, sender information, and email structure, enhancing email security and filtering efficiency.</p>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- Add more project boxes as needed -->
+</section>
+    
+    <section id="contact">
+        <div class="contact">
+            <h2 class="itsme">CONTACT :</h2>
+    
+        <div class="contact-item">
+            <a href="mailto:adeepaanand16@gmail.com">
+                <img src="email" alt="Email">
+            </a>
+        </div>
+        <div class="contact-item">
+            <a href="tel:7305157784">
+                <img src="phone" alt="Phone">
+            </a>
+        </div>
+        <div class="contact-item">
+            <a href="https://www.linkedin.com/in/deepa-a-60358b298/">
+                <img src="linkedin_logo.png" alt="LinkedIn">
+            </a>
+        </div>
+        </div>
+        <div class="quote">
+            <p >Thanks for visiting!
+              </div>
+            </p>
+          
+           
+        </div>
+    </section>
+    
 
     <script src="script.js"></script>
 </body>
