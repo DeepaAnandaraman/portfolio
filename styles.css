@@ -296,7 +296,7 @@ projects{
         top:5%;
        padding:3px;
         display:flex;
-        margin-left:20px;
+        margin-left:40px;
         margin-top:  10px;
         text-align:center;
         margin-right:200px;
@@ -308,10 +308,19 @@ projects{
     font-size: 30px;
 
 }
+.projects{
+    margin-left: 10px;
+}
+.contact{
+    text-align: center;
+}
+.contact-item{
+    margin-left: 20px;
+}
 .container{
     position: fixed;
     top: 0;
-    left: 50%;
+    left: 20%;
     right: 0;
     z-index: 2;
     text-align: center;
