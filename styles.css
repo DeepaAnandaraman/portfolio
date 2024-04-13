@@ -313,14 +313,20 @@ projects{
 }
 .contact{
     text-align: center;
+    margin-left: 30%;
 }
 .contact-item{
-    margin-left: 20px;
+    margin-left: 20%;
+}
+.project-box {
+    width: 100%; /* Set width to 100% to make it full width */
+    float: none; /* Remove float */
+    margin: 10px 0;
 }
 .container{
     position: fixed;
     top: 0;
-    left: 20%;
+    left: 40%;
     right: 0;
     z-index: 2;
     text-align: center;
