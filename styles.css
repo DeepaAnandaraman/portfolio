@@ -326,7 +326,7 @@ projects{
 .container{
     position: fixed;
     top: 0;
-    left: 40%;
+    left: 50%;
     right: 0;
     z-index: 2;
     text-align: center;
