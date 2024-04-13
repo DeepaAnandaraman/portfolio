@@ -296,7 +296,7 @@ projects{
         top:5%;
        padding:3px;
         display:flex;
-        margin-left:40px;
+        margin-left:262px;
         margin-top:  10px;
         text-align:center;
         margin-right:200px;
@@ -308,25 +308,34 @@ projects{
     font-size: 30px;
 
 }
+
+
 .projects{
-    margin-left: 10px;
+    margin-left: 112px;
+    
 }
-.contact{
-    text-align: center;
-    margin-left: 30%;
+
+
+.itsme{
+   
+    margin-left: 9.5%;
+    margin-bottom: 0%;
 }
 .contact-item{
-    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+   
 }
-.project-box {
-    width: 100%; /* Set width to 100% to make it full width */
-    float: none; /* Remove float */
-    margin: 10px 0;
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 .container{
     position: fixed;
     top: 0;
-    left: 50%;
+    left: 33%;
     right: 0;
     z-index: 2;
     text-align: center;
