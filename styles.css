@@ -339,7 +339,7 @@ projects{
 
 .itsme{
    
-    margin-left: 9.5%;
+    margin-left: 9%;
     margin-bottom: 0%;
 }
 .contact-item{
@@ -356,7 +356,7 @@ projects{
 .container{
     position: fixed;
     top: 0;
-    left: 41%;
+    left: 43%;
     right: 0;
     z-index: 2;
     text-align: center;
